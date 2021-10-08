@@ -5,22 +5,32 @@
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
 }
 
 #name {
 	float: left;
+	width: 200px;
 }
 
 #contactDetails {
 	float: right;
 	color: #181818;
-	position: relative;
-	right: 700px;
+	width: 200px;
+}
+
+.eleDetails {
+	width: 800 px;
+	margin: 0 auto;
+}
+
+#cv {
+	width: 800px;
+	margin: 0 auto;
 }
 
 .lista {
 	list-style: none;
+	float: right;
 }
 
 .sectionTitle {
@@ -34,10 +44,6 @@
 }
 
 body {
-	width:90%;
-	margin: 0 ;
-	min-width:600px;
-	max-width:2000px;
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #f3f3f3;
 }
@@ -59,16 +65,11 @@ h2 {
 
 .titulo {
 	color: #cf8a05;
-	position: relative;
-	left: 250px;
 }
 
 #linhaAmarela {
 	width: 800px;
 	border: 2px solid rgb(194, 149, 2);
-	position:relative;
-	top: 10px;
-	left: 250px;
 }
 
 a {
@@ -79,18 +80,15 @@ a {
 p {
 	width: 530px;
 	color: #181818;
+	margin-right: 0%;
 }
 
 .headshot {
-	position: relative;
-	top: 130px;
-	left: 290px;
 	border-radius: 50%;
 	}
 
 #name {
-	position: relative;
-	left: 450px;
+	width: 200px;
 }
 
 .keySkills {
@@ -110,23 +108,26 @@ p {
 #linhaCinza {	
 	width: 750px;
 	border: 1px solid #dedede;
-	position: relative;
-	top: 6px; 
-	left: 250px;
+	
 }
 
 #linhaCinza2 {
 	width: 750px;
 	border: 1px solid #dedede;
-	position: relative;
-	top: 6px; 
-	left: 250px;
+	
 }
 
 #linhaCinza3 {
 	width: 750px;
 	border: 1px solid #dedede;
-	position: relative;
-	top: 6px; 
-	left: 250px;
+}
+
+.mainDetails {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.ajuste {
+	display: inline;
+	float: left;
 }
